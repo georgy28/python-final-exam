@@ -1,3 +1,4 @@
+# C-like style
 def is_palindrome(word):
     word_lower = word.lower()
     w_len = len(word_lower)
