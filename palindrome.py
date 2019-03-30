@@ -7,6 +7,13 @@ def is_palindrome(word):
             return False
     return True
 
+
+# fast way using slicing even though we check the whole strings (while half would be enough)
+
+def is_palindrome2(word):
+    l_word = word.lower()
+    return l_word == l_word[::-1]
+
 ###################### CODE ENDS HERE ####################
 
 ############### EXAMPLES #################
@@ -14,10 +21,13 @@ def is_palindrome(word):
 
 # A few test cases
 print(is_palindrome('Deleveled'))
-print(is_palindrome('apapapaPAPAPAPA'))
-print(is_palindrome('YOU ARE -- era uOY'))
+print(is_palindrome2('apapapaPAPAPAPA'))
 
-print(is_palindrome('123-321'))
+print(is_palindrome('YOU ARE -- era uOY'))
+print(is_palindrome2('123-321'))
+
 print(is_palindrome('AQ'))
-print(is_palindrome('A'))
+print(is_palindrome2('A'))
+
 print(is_palindrome('Father'))
+print(is_palindrome2('Mother'))
