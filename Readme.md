@@ -3,7 +3,7 @@
 This is the repo of my solutions for the Python final exam.
 In most of them I have also included extra examples.
 
-# Code Challenge
+## Code Challenge
 
 Please complete these challenges below. Write separate scripts for each challenge.
 
