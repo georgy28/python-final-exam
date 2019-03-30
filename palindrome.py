@@ -6,6 +6,10 @@ def is_palindrome(word):
             return False
     return True
 
+###################### CODE ENDS HERE ####################
+
+############### EXAMPLES #################
+
 
 # A few test cases
 print(is_palindrome('Deleveled'))
